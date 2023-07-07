@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/04a4739f9a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="library.css">
+    
+  </head> 
+  <body>
+   
+    <div class="bgContainer">
+    <header class="header">
+      <div class="header-1">
+        <a href="#" class="logo"> <i class="fas fa-book"></i> Library </a> 
+         <form action="" class="searchBar" id="searchInput">
+          <input type="search" id="searchInput" placeholder="Type book title" class="control" />
+          <label for="searchBar" class=" fas fa-search"></label>
+
+        </form>
+        <div>
+
+        </div>
+          <div class="icons">
+            <div id="searchBtn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a> 
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-book"></a> 
+            <a id="LoginBtn" href="LoginPage.html" ><i class="fas fa-users"></i></a>
+          </div>
+      </div>
+       
+    <div class="header-2">
+      <nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#Buy">Buy</a>
+          <a href="#arrivals">Arrivals</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#Contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+<div class="result">
+  <div class="mt-3 text-center">
+    <div id="spinner" class="d-none spinner-border text-dark" role="status">
+        <span class="sr-only">Loading..</span>
+    </div>
+    <p id="message"></p>
+</div>
+<div id="searchResults"></div>
+</div>
+
+
+
+    <!--bottom navbar-->
+    <nav class="bottom-navbar">
+      <a href="#home" class="fas fa-home"></a>
+      <a href="#featured" class="fas fa-list"></a>
+      <a href="#arrivals" class="fas fa-tags"></a>
+      <a href="#reviews" class="fas fa-comments"></a>
+      <a href="#Contact" class="fas fa-blogs"></a>
+  </nav>
+  
+
+ <section class="home" id="home">
+      <div class="row">
+        <div class="content">
+          <h3 class="heading">Welcome to Library Managament System</h3>
+          <p class="quote">"Books are the treasured wealth of the world
+             and the fit inheritance of generations and nations." - Henry David Thoreau</p>
+            <div class="d-flex flex-column">
+          <a href="google.html" class="btn">Search <i class="fab fa-google"></i></a><br> 
+          <a href="https://www.youtube.com/" class="btn mt-2">youtube <i class="fa-brands fa-youtube"></i></a>
+            </div>
+          
+
+        </div>
+      <div class="book-slider">
+        <div class="wrapper">
+          <h1>Popular Books</h1>
+        <a href="#"><img src="img1.png" alt=""/></a>
+        <a href="#"><img src="img2.png" alt=""/></a>
+        <a href="#"><img src="img4.png" alt=""/></a>
+        <a href="#"><img src="img3.png" alt=""/></a>
+        <a href="#"><img src="img5.png" alt=""/></a>
+      </div>
+      
+      </div>
+      </div>
+ </section>
+
+<section>
+  <section class="icons-container">
+    <div class="icons"> 
+      <i class="fas fa-plane"></i> 
+      <div class="content"> 
+        <h3>free shipping</h3> 
+        <p>order over 1000</p>
+      </div>
+    
+    </div>
+<div class="icons">
+  <i class="fas fa-redo-alt"></i> 
+  <div class="content">
+  <h3>Return</h3>
+  <p>1 week </p>
+</div>
+</div>
+
+<div class="icons">
+  <i class="fas fa-headset"></i> 
+  <div class="content">
+  <h3>24/7Support</h3>
+  <p>call us anytime </p>
+</div>
+</div>
+</section>
+
+ <script src="library.js"></script>
+
+</body>
+</html>

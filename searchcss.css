@@ -1,0 +1,35 @@
+
+.bg-container {
+    background-color: #ffffff;
+    border-color: #323f4b;
+    border-width: 1px;
+    border-style: solid;
+    height: 100vh;
+}
+
+#searchResults {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Creates two equal-width columns */
+}
+
+.library-bg {
+    background-image: url("https://assets.ccbp.in/frontend/dynamic-webapps/library-management-bg.png");
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+
+.heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 34px;
+    font-weight: 600;
+    padding: 19px;
+}
+
+.control {
+    height: 40px;
+    width:25rem ;
+    border-block-color: orange;
+}

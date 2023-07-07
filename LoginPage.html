@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/04a4739f9a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#" class="FormContainer">
+                <h1 class="titlehead">Create Account</h1>
+                <div class="social-container">
+                    <a href="https://www.facebook.com/" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://myaccount.google.com/" class="social"><i class="fab fa-google"></i></a>
+                    <a href="https://www.linkedin.com/authwall?trk=qf&original_referer=https://www.linkedin.com/feed/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fhome" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email for registration</span>
+                <input type="text" class="loginInput" placeholder="Name" />
+                <input type="email" class="loginInput" placeholder="Email" />
+                <input type="password" class="loginInput" placeholder="Password" />
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#" class="FormContainer">
+                <h1>Sign in</h1>
+                <div class="social-container">
+                    <a href="https://www.facebook.com/" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://myaccount.google.com/" class="social"><i class="fab fa-google"></i></a>
+                    <a href="https://www.linkedin.com/authwall?trk=qf&original_referer=https://www.linkedin.com/feed/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fhome" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your account</span>
+                <input type="email" class="loginInput" placeholder="Email" />
+                <input type="password" class="loginInput" placeholder="Password" />
+                <div class="m-3" onclick="display('ForgotPassword')">
+                    <a href="#">Forgot your password?</a>
+                </div>
+                <button>Sign In</button>
+                <a href="library.html" class="mt-3">Home</a>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <button class="ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="form-container overlay-panel overlay-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Enter your personal details and Join with us</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+<script src="login.js"></script>
+</body>
+
+</html>
